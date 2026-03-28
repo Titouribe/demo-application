@@ -1,10 +1,10 @@
-package com.demo_application.emoloyee.controller;
+package com.demo_application.employee.controller;
 
-import com.demo_application.emoloyee.controller.dto.EmployeeCreationApi;
-import com.demo_application.emoloyee.controller.dto.EmployeeViewApi;
-import com.demo_application.emoloyee.controller.mapper.EmployeeDTOMapper;
-import com.demo_application.emoloyee.domain.model.Employee;
-import com.demo_application.emoloyee.domain.service.EmployeeService;
+import com.demo_application.employee.controller.dto.EmployeeCreationApi;
+import com.demo_application.employee.controller.dto.EmployeeViewApi;
+import com.demo_application.employee.controller.mapper.EmployeeDTOMapper;
+import com.demo_application.employee.domain.model.Employee;
+import com.demo_application.employee.domain.service.EmployeeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

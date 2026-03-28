@@ -1,8 +1,8 @@
-package com.demo_application.emoloyee.domain.service.impl;
+package com.demo_application.employee.domain.service.impl;
 
-import com.demo_application.emoloyee.domain.model.Employee;
-import com.demo_application.emoloyee.domain.service.EmployeeService;
-import com.demo_application.emoloyee.persistence.EmployeeDatabaseService;
+import com.demo_application.employee.domain.model.Employee;
+import com.demo_application.employee.domain.service.EmployeeService;
+import com.demo_application.employee.persistence.EmployeeDatabaseService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

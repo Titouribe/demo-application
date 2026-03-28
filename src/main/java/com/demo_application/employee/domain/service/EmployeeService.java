@@ -1,6 +1,6 @@
-package com.demo_application.emoloyee.domain.service;
+package com.demo_application.employee.domain.service;
 
-import com.demo_application.emoloyee.domain.model.Employee;
+import com.demo_application.employee.domain.model.Employee;
 
 import java.util.Collection;
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.demo_application.emoloyee.controller.mapper;
+package com.demo_application.employee.controller.mapper;
 
-import com.demo_application.emoloyee.controller.dto.EmployeeCreationApi;
-import com.demo_application.emoloyee.controller.dto.EmployeeViewApi;
-import com.demo_application.emoloyee.domain.model.Employee;
+import com.demo_application.employee.controller.dto.EmployeeCreationApi;
+import com.demo_application.employee.controller.dto.EmployeeViewApi;
+import com.demo_application.employee.domain.model.Employee;
 import org.springframework.stereotype.Component;
 
 @Component

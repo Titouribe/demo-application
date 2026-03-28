@@ -1,6 +1,6 @@
-package com.demo_application.emoloyee.persistence;
+package com.demo_application.employee.persistence;
 
-import com.demo_application.emoloyee.domain.model.Employee;
+import com.demo_application.employee.domain.model.Employee;
 
 import java.util.Collection;
 import java.util.List;

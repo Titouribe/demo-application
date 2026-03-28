@@ -1,7 +1,7 @@
-package com.demo_application.emoloyee.persistence.mapper;
+package com.demo_application.employee.persistence.mapper;
 
-import com.demo_application.emoloyee.domain.model.Employee;
-import com.demo_application.emoloyee.persistence.entity.EmployeeEntity;
+import com.demo_application.employee.domain.model.Employee;
+import com.demo_application.employee.persistence.entity.EmployeeEntity;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,4 +1,4 @@
-package com.demo_application.emoloyee.controller.dto;
+package com.demo_application.employee.controller.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -7,15 +7,16 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serial;
 import java.io.Serializable;
+import java.time.ZonedDateTime;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class EmployeeCreationApi implements Serializable {
+public class EmployeeViewApi implements Serializable {
 
     @Serial
-    private static final long serialVersionUID = -175951324627594099L;
+    private static final long serialVersionUID = -1290197793303499706L;
 
     private Long id;
 
@@ -26,4 +27,6 @@ public class EmployeeCreationApi implements Serializable {
     private String email;
 
     private double salaryPerHour;
+
+    private ZonedDateTime createdDate;
 }

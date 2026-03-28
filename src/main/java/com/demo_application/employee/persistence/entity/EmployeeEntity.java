@@ -1,4 +1,4 @@
-package com.demo_application.emoloyee.persistence.entity;
+package com.demo_application.employee.persistence.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

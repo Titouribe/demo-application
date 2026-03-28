@@ -1,9 +1,9 @@
-package com.demo_application.emoloyee.persistence.impl;
+package com.demo_application.employee.persistence.impl;
 
-import com.demo_application.emoloyee.domain.model.Employee;
-import com.demo_application.emoloyee.persistence.EmployeeDatabaseService;
-import com.demo_application.emoloyee.persistence.mapper.EmployeeMapper;
-import com.demo_application.emoloyee.persistence.repository.EmployeeRepository;
+import com.demo_application.employee.domain.model.Employee;
+import com.demo_application.employee.persistence.EmployeeDatabaseService;
+import com.demo_application.employee.persistence.mapper.EmployeeMapper;
+import com.demo_application.employee.persistence.repository.EmployeeRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
