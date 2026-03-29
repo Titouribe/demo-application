@@ -1,11 +1,29 @@
-package com.demo_application.emoloyee.persistence.entity;
-
-import jakarta.persistence.*;
-import lombok.*;
-import org.hibernate.annotations.CreationTimestamp;
+package com.demo_application.employee.persistence.entity;
 
 import java.time.ZonedDateTime;
 
+import org.hibernate.annotations.CreationTimestamp;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+
+/**
+ * Entidad JPA que representa la tabla 'employee' en la base de datos.
+ * <p>
+ * Incluye información personal, salario y fecha de creación del empleado.
+ * Utiliza anotaciones de Lombok y JPA para facilitar el mapeo y la generación
+ * de código.
+ * </p>
+ */
 @Entity
 @Table(name = "employee")
 @Data

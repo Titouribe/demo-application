@@ -1,14 +1,21 @@
-package com.demo_application.emoloyee.controller.dto;
+package com.demo_application.employee.controller.dto;
+
+import java.io.Serial;
+import java.io.Serializable;
+import java.time.ZonedDateTime;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serial;
-import java.io.Serializable;
-import java.time.ZonedDateTime;
-
+/**
+ * DTO para exponer los datos de un empleado a través de la API.
+ * <p>
+ * Utiliza Lombok para la generación automática de getters, setters,
+ * constructores y builder.
+ * </p>
+ */
 @Data
 @Builder
 @NoArgsConstructor
